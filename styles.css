@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  cursor: default;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#landing-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.placeholder {
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-color: #101010;
+  background-image: url("./assets/NotflixBg.png");
+}
+
+/* .color__1 {
+    background-color: aqua;
+} */
+.color__2 {
+  background-color: red;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 10%,
+    transparent
+  );
+  z-index: 9999;
+}
+
+.navbar__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.navbar__img--container {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 300ms all ease;
+}
+
+.navbar__img--container:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.navbar__img {
+  width: 100%;
+}
+
+.navbar__left {
+  display: flex;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+}
+
+.account__img {
+  width: 35px;
+  border-radius: 5px;
+}
+
+.account__item {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.account__menu--arrow {
+  width: 10px;
+  height: 15px;
+  margin: 0px 10px;
+  transform: rotate(180deg);
+}
