@@ -26,3 +26,116 @@
                 class="navbar__item item__text nav__anim--active no__cursor"
                 onclick="nAlert()"
               >
+              Home
+            </li>
+            <li
+              class="navbar__item item__text nav__anim--active no__cursor"
+              onclick="nAlert()"
+            >
+              TV Shows
+            </li>
+            <li
+              class="navbar__item item__text nav__anim--active no__cursor"
+              onclick="nAlert()"
+            >
+              Movies
+            </li>
+            <li
+              class="navbar__item item__text nav__anim--active no__cursor"
+              onclick="nAlert()"
+            >
+              New & Popular
+            </li>
+            <li
+              class="navbar__item item__text nav__anim--active no__cursor"
+              onclick="nAlert()"
+            >
+              My List
+            </li>
+            <li
+              class="navbar__item item__text nav__anim--active no__cursor"
+              onclick="nAlert()"
+            >
+              Browse by Languages
+            </li>
+        </ul>
+    </div>
+    <div class="navbar__right">
+      <ul class="navbar__list">
+        <li class="navbar__item item__icon seach__bar--ref">
+          <div class="search__bar--container">
+            <i
+              class="fa-solid fa-magnifying-glass search__icon"
+              onclick="searchBarActive()"
+            ></i>
+            <input
+              type="text"
+              class="search__bar--input"
+              placeholder="Movie Name"
+              onchange="searchBarInput(event)"
+            />
+          </div>
+        </li>
+        <li
+          class="navbar__item item__text nav__anim--active no__cursor"
+          onclick="nAlert()"
+        >
+          Kids
+        </li>
+        <li class="navbar__item item__icon no__cursor" onclick="nAlert()">
+          <i class="fa-solid fa-bell"></i>
+        </li>
+        <li class="account__item no__cursor" onclick="nAlert()">
+          <img src="./assets/me.png" class="account__img" />
+          <img
+            src="./assets/arrow__menu.png"
+            class="account__menu--arrow"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header class="header">
+  <div class="goBack" onclick="goBack()">
+    <i class="fa-solid fa-arrow-left"></i>
+    <h3 class="goBack__text">Go Back</h3>
+  </div>
+  <div class="movies__container"></div>
+  <div class="default__container">
+    <h1 class="notflix__empty--title">
+      <span class="text--red">Notflix</span>
+    </h1>
+    <h3 class="notflix__empty--desc">
+      Notflix is the best movie search website because it is the most
+      comprehensive and user-friendly site available. Notflix has an
+      extensive database of movies, making it easy to find the right film
+      for you.
+    </h3>
+    <form class="notflix__empty--search" onsubmit="return false;">
+      <input
+        type="text"
+        class="notflix__empty--input"
+        placeholder="Movie Name"
+        onchange="searchBarInput(event)"
+        autofocus
+      />
+      <button class="btn__submit" type="submit">
+        <i class="fa-solid fa-magnifying-glass nei__search"></i>
+      </button>
+    </form>
+  </div>
+</header>
+</section>
+</body>
+</html>
+
+<!-- <div class="movie--container">
+<div class="movie__contents">
+<div class="movie__poster"></div>
+<div class="movie__info--container">
+<div class="movie__title"></div>
+<div class="movie__year"></div>
+</div>
+</div>
+</div> -->
