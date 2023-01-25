@@ -302,4 +302,347 @@ nav {
     padding: 10px;
     text-align: center;
   }
+  .movie__year {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(145deg, #200000 0%, #242424 100%);
+    border-bottom-right-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    color: #db202c;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 0px 0px 5px rgba(219, 32, 44, 0.5);
+  }
+  
+  .movie__year:hover {
+    cursor: default;
+  }
+  .movie__title:hover {
+    cursor: default;
+  }
+  
+  .movie__poster--img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .text--red {
+    color: #ad212a;
+  }
+  
+  .default__container {
+    width: 100%;
+    background-color: rgba(36, 36, 36, 0.4);
+    padding: 100px 80px;
+    height: calc(100% + 80px);
+    top: -80px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notflix__empty--title {
+    margin-top: 180px;
+    font-size: 100px;
+    height: min-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .notflix__empty--desc {
+    font-size: 26px;
+    max-width: 600px;
+    margin-top: 40px;
+    color: #f8f8f8;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .notflix__empty--but {
+    padding: 14px 48px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  
+  .notflix__empty--but:hover {
+    cursor: not-allowed;
+  }
+  
+  .no__cursor:hover {
+    cursor: not-allowed;
+  }
+  
+  .fa-play {
+    margin-right: 10px;
+  }
+  .fa-info {
+    margin-right: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .notflix__empty--but:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .nebvar__2 {
+    background-color: rgba(36, 36, 36, 0.5);
+    color: #f8f8f8;
+  }
+  
+  @media (max-width: 1200px) {
+    .movie--container {
+      width: calc(100% / 2);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar__item {
+      display: none;
+    }
+  
+    .seach__bar--ref {
+      display: block;
+    }
+  
+    .navbar__row {
+      max-width: 680px;
+    }
+  
+    .nlvar__1 {
+      display: none;
+    }
+  
+    .account__menu--arrow {
+      margin-right: 0px;
+    }
+  
+    .sbActive .search__bar--input {
+      width: 120px;
+    }
+    .sbActive .search__bar--container {
+      margin-left: -100px;
+    }
+  
+    .placeholder {
+      background-image: url(./assets/NotflixBg2.png);
+      background-attachment: fixed;
+    }
+  
+    .default__container {
+      padding: 20px;
+    }
+  
+    .notflix__empty--title {
+      font-size: 60px;
+    }
+  
+    .notflix__empty--desc {
+      font-size: 20px;
+    }
+  
+    .notflix__empty--but {
+      font-size: 16px;
+    }
+  
+    .header {
+      padding: 0px 0px;
+    }
+    .movies__container {
+      margin: 0px 20px;
+      padding: 20px;
+      overflow-y: scroll;
+      margin-top: 80px;
+      height: 86%;
+    }
+    .movie--container {
+      padding-right: 20px;
+      width: calc(100% / 2);
+      height: 400px;
+    }
+  
+    .movie__contents {
+      flex-direction: column;
+      width: 75%;
+      box-shadow: 0px 0px 10px rgb(36 36 36 / 50%);
+    }
+  
+    .movie__info--container {
+      width: 100%;
+    }
+  
+    .movie__title {
+      border-top-right-radius: 0px;
+    }
+  
+    .movie__poster {
+      width: 100%;
+      border-bottom-left-radius: 0px;
+      height: 750px;
+    }
+  
+    .goBack {
+      top: 90px !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      position: fixed !important;
+    }
+  
+    .notflix__empty--search {
+      width: 60% !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar__item {
+      display: none;
+    }
+  
+    .seach__bar--ref {
+      display: block;
+    }
+  
+    .navbar__row {
+      max-width: 360px;
+    }
+  
+    .nlvar__1 {
+      display: none;
+    }
+  
+    .account__menu--arrow {
+      margin-right: 0px;
+    }
+  
+    .sbActive .search__bar--input {
+      width: 120px;
+    }
+    .sbActive .search__bar--container {
+      margin-left: -100px;
+    }
+  
+    .placeholder {
+      background-image: url(./assets/NotflixBg2.png);
+      background-attachment: fixed;
+    }
+  
+    .default__container {
+      padding: 20px;
+    }
+  
+    .notflix__empty--title {
+      font-size: 60px;
+    }
+  
+    .notflix__empty--desc {
+      font-size: 20px;
+    }
+  
+    .notflix__empty--but {
+      font-size: 16px;
+    }
+  
+    .header {
+      padding: 0px 0px;
+    }
+    .movies__container {
+      margin: 0px 20px;
+      padding: 20px;
+      margin-top: 100px;
+      overflow-y: scroll;
+    }
+    .movie--container {
+      padding-right: 20px;
+      width: 100%;
+      height: 400px;
+    }
+  
+    .movie__contents {
+      flex-direction: column;
+      width: 75%;
+      box-shadow: 0px 0px 10px rgb(36 36 36 / 50%);
+    }
+  
+    .movie__info--container {
+      width: 100%;
+    }
+  
+    .movie__title {
+      border-top-right-radius: 0px;
+    }
+  
+    .movie__poster {
+      width: 100%;
+      border-bottom-left-radius: 0px;
+      height: 750px;
+    }
+  
+    .goBack {
+      top: 100px !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      position: fixed !important;
+    }
+  }
+  
+  .notflix__empty--input {
+    background-color: rgba(36, 36, 36, 0.5);
+    height: 50px;
+    width: 100%;
+    margin-right: 20px;
+    outline: none;
+    border: 2px solid #f8f8f8;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #f8f8f8;
+  }
+  .notflix__empty--input::placeholder {
+    color: #f8f8f8;
+  }
+  
+  .notflix__empty--input:focus,
+  input:focus {
+    color: #f8f8f8;
+  }
+  
+  .notflix__empty--search {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    max-width: 580px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .nei__search {
+    margin-right: 20px;
+    color: #f8f8f8;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms all ease;
+  }
+  
+  .btn__submit {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
   
