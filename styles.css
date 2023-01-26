@@ -42,7 +42,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
   background-color: #101010;
-  background-image: url("./assets/NotflixBg.png");
+  background-image: url("./assets/hills2.jpeg");
 }
 
 /* .color__1 {
@@ -81,7 +81,7 @@ nav {
 }
 
 .navbar__img--container {
-  width: 90px;
+  width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -437,7 +437,7 @@ nav {
     }
   
     .placeholder {
-      background-image: url(./assets/NotflixBg2.png);
+      background-image: url(./assets/hills2.jpeg);
       background-attachment: fixed;
     }
   
@@ -534,7 +534,7 @@ nav {
     }
   
     .placeholder {
-      background-image: url(./assets/NotflixBg2.png);
+      background-image: url(./assets/hills2.jpeg);
       background-attachment: fixed;
     }
   
